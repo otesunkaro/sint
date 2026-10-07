@@ -1,6 +1,6 @@
 CC ?= cc
 CFLAGS ?= -Wall -Wextra -O2
-CFLAGS += -Iinclude -MMD -MP
+CFLAGS += -Iinclude -MMD -MP -lm
 TARGET := sint
 
 SRC := $(shell find src -name '*.c')
